@@ -33,24 +33,23 @@ Clone this repository or download the individual scripts:
 **Step 2: Make Scripts Executable**
 Make both scripts executable:
 
-bash
-Copy code
+
 chmod +x install_prometheus.sh install_alertmanager.sh
 
 **Step 3: Run Scripts**
 Run each script with elevated privileges using sudo:
 
-bash
-Copy code
+
 sudo ./install_prometheus.sh
 sudo ./install_alertmanager.sh
+
+
 The scripts will guide you through the installation process, and you will see status messages as the installation progresses.
 
 **Step 4: Verify Installation**
 Check the status of Prometheus and Alertmanager:
 
-bash
-Copy code
+
 sudo systemctl status prometheus
 sudo systemctl status alertmanager
 
