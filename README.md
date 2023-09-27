@@ -36,7 +36,8 @@ Make both scripts executable:
 bash
 Copy code
 chmod +x install_prometheus.sh install_alertmanager.sh
-Step 3: Run Scripts
+
+**Step 3: Run Scripts**
 Run each script with elevated privileges using sudo:
 
 bash
